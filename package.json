@@ -1,7 +1,7 @@
 {
-    "name": "joblint.org",
-    "mod-project-name": "joblint.org",
-    "version": "1.1.0",
+    "name": "joblint-jobbox",
+    "mod-project-name": "joblint-jobbox",
+    "version": "0.0.1",
     "private": true,
 
     "description": "Test tech job specs for issues with sexism, culture, expectations, and recruiter fails.",
@@ -14,10 +14,10 @@
 
     "repository": {
         "type": "git",
-        "url": "https://github.com/rowanmanning/joblint.org.git"
+        "url": "https://github.com/JOBBOX/jobbox-joblint.git"
     },
-    "homepage": "https://github.com/rowanmanning/joblint.org",
-    "bugs": "https://github.com/rowanmanning/joblint.org/issues",
+    "homepage": "https://github.com/JOBBOX/jobbox-joblint",
+    "bugs": "https://github.com/JOBBOX/jobbox-joblint/issues",
 
     "engines" : {
         "node": "0.10.x"
