@@ -1,3 +1,4 @@
+require('newrelic');
 'use strict';
 
 var config = {
@@ -5,7 +6,7 @@ var config = {
 };
 var express = require('express');
 var hbs = require('express-hbs');
-var new_relic = require('newrelic');
+
 initApp();
 
 function initApp () {

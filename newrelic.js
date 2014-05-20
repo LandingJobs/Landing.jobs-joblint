@@ -8,11 +8,11 @@ exports.config = {
   /**
    * Array of application names.
    */
-  app_name : ['My Application'],
+  app_name : ['joblint-jobbox'],
   /**
    * Your New Relic license key.
    */
-  license_key : 'license key here',
+  license_key : '0a3d4d4997bf3c8dabb3dbce75e3dfbe9ab09694',
   logging : {
     /**
      * Level at which to log. 'trace' is most useful to New Relic when diagnosing
