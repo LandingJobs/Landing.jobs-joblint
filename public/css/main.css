@@ -58,9 +58,8 @@ a {
     color:black;
     text-decoration:none;
 }
-a:hover, a:active, a:focus {
-    color:#79c791;
-}
+
+
 ul {
     padding-left:20px;
     margin-bottom:60px;
@@ -108,7 +107,7 @@ small, .small {
     font-size:16px;
 }
 .box {
-    background-color:#504A46;
+    background-color:#eeeeee;
 }
 .spaced {
     padding:25px;
@@ -160,6 +159,14 @@ small, .small {
 
 .footer {
     padding:80px 0 20px 0;
+}
+
+.footer a:hover, a:active, a:focus {
+    color:#79c791;
+}
+
+.header a:hover, a:active, a:focus {
+    color:#79c791;
 }
 .triangle {
     position:relative;
@@ -234,17 +241,18 @@ small, .small {
     text-decoration:none;
     background-color:#79c791;
 }
+
 .bar-chart-container {
     margin-bottom:80px;
 }
 .bar-chart {
-    color:#e1e1e1;
+    color:black;
 }
 .bar {
     height:30px;
     margin-top: 5px;
     margin-bottom:20px;
-    border-left:5px solid #c8b0e8;
+    border-left:5px solid black;
     overflow:hidden;
     text-indent:-300px;
 }
@@ -252,20 +260,20 @@ small, .small {
     margin-bottom:0;
 }
 .notch {
-    background-color:#97857E;
+    background-color:#79c791;
     float:left;
     margin-left:5px;
     width: 3%;
     height:30px;
 }
 .success {
-    color:#93c151;
+    color:#79c791;
 }
 .error {
     color:#FAA086;
 }
 .warning {
-    color:#FBEE9E;
+    color:#F05174;
 }
 .notice {
     color:#90c6e4;
@@ -318,7 +326,7 @@ small, .small {
     color:#F8B7A4;
 }
 .warning-detail {
-    color:#FDF6CA;
+    color:black;
 }
 .notice-detail {
     color:#B6D8EC;
