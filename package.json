@@ -1,37 +1,36 @@
 {
-    "name": "joblint-jobbox",
-    "mod-project-name": "joblint-jobbox",
-    "version": "0.0.1",
-    "private": true,
-
-    "description": "Test tech job specs for issues with sexism, culture, expectations, and recruiter fails.",
-    "keywords": [ "job", "lint" ],
-    "author": "Rowan Manning (http://rowanmanning.com/)",
-    "contributors": [
-        "Perry Harlock (http://www.phwebs.co.uk/)"
-    ],
-    "license": "MIT",
-
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/JOBBOX/jobbox-joblint.git"
-    },
-    "homepage": "https://github.com/JOBBOX/jobbox-joblint",
-    "bugs": "https://github.com/JOBBOX/jobbox-joblint/issues",
-
-    "engines" : {
-        "node": "0.10.x"
-    },
-    "dependencies": {
-        "express": "~3.4",
-        "express-hbs": "~0.1",
-        "joblint": "https://github.com/JOBBOX/joblint/tarball/master",
-        "newrelic": "~1.5.5"
-    },
-    "devDependencies": {
-        "jshint": "~2.1",
-        "supervisor": "~0.5"
-    },
-
-    "main": "./app.js"
+  "name": "joblint-jobbox",
+  "mod-project-name": "joblint-jobbox",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Test tech job specs for issues with sexism, culture, expectations, and recruiter fails.",
+  "keywords": [
+    "job",
+    "lint"
+  ],
+  "author": "Rowan Manning (http://rowanmanning.com/)",
+  "contributors": [
+    "Perry Harlock (http://www.phwebs.co.uk/)"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JOBBOX/jobbox-joblint.git"
+  },
+  "homepage": "https://github.com/JOBBOX/jobbox-joblint",
+  "bugs": "https://github.com/JOBBOX/jobbox-joblint/issues",
+  "engines": {
+    "node": "0.10.x"
+  },
+  "dependencies": {
+    "express": "~3.4",
+    "express-hbs": "~0.1",
+    "joblint": "https://github.com/JOBBOX/joblint/tarball/master",
+    "newrelic": "~1.5.5"
+  },
+  "devDependencies": {
+    "jshint": "~2.1",
+    "supervisor": "~0.5"
+  },
+  "main": "./app.js"
 }
