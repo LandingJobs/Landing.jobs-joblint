@@ -154,11 +154,20 @@ small, .small {
     background-color: rgba(245,245,245,1);
     border-top: solid 2px #79c791;
     box-shadow: 0 1px 0 0 rgba(0,0,0,0.1);
-    padding:40px 0;
+    padding:30px 0;
+}
+
+.header {
+    border-bottom: solid 2px #79c791;
 }
 
 .footer {
-    padding:80px 0 20px 0;
+    padding:60px 0 20px 0;
+    text-align: center;
+}
+
+.footer p{
+    font-size: 15px;
 }
 
 .footer a:hover, a:active, a:focus {
@@ -168,46 +177,7 @@ small, .small {
 .header a:hover, a:active, a:focus {
     color:#79c791;
 }
-.triangle {
-    position:relative;
-}
-.triangle-before:before, .triangle-after:after {
-    content:"";
-    pointer-events:none;
-    position:absolute;
-    z-index:10;
-}
-.triangle-before:before, .triangle-after:after {
-    height:40px;
-    width:40px;
-    left:50%;
-    -ms-transform: translateX(-50%) rotate(45deg);
-    -moz-transform: translateX(-50%) rotate(45deg);
-    -o-transform: translateX(-50%) rotate(45deg);
-    -webkit-transform: translateX(-50%) rotate(45deg);
-    transform: translateX(-50%) rotate(45deg);
-}
-.triangle-before:before {
-    background-color:#79c791;
-    top:-20px;
-}
-.triangle-after:after {
-    background-color:#79c791;
-    bottom:-20px;
-}
-.triangle-reversed:before {
-    background-color:#79c791;
-}
-.triangle-reversed:after {
-    background-color:#79c791;
-}
-.triangle-right:after {
-    background-color:#79c791;
-    height:30px;
-    width:30px;
-    left:100%;
-    top:5px;
-}
+
 .container {
     width:80%;
     max-width:980px;
@@ -377,17 +347,6 @@ small, .small {
     }
     .container {
         width:90%;
-    }
-    .triangle:before
-     {
-        width:20px;
-        height:20px;
-        top:-10px;
-    }
-    .triangle:after {
-        width:20px;
-        height:20px;
-        bottom:-10px;
     }
     .lead {
         font-size:22px;
