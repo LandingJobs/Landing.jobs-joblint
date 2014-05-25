@@ -8,7 +8,7 @@ Test tech job specs for issues with sexism, culture, expectations, and recruiter
 About
 -----
 
-Joblint was originally written by [Rowan Manning](https://github.com/rowanmanning) and is maintained by [JOBBOX](http://jobbox.io).
+Joblint was originally written by [Rowan Manning](https://github.com/rowanmanning) and is maintained by [Diogo Rosa](https://github.com/diogorosa) and [JOBBOX](http://jobbox.io).
 
 License
 -------
