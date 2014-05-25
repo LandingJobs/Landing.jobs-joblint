@@ -1,4 +1,4 @@
-Joblint.org
+lint.jobbox.io
 ===========
 
 The source code for http://lint.jobbox.io
