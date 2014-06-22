@@ -25,7 +25,6 @@
   "dependencies": {
     "express": "~3.4",
     "express-hbs": "~0.1",
-    "joblint": "https://github.com/JOBBOX/joblint/tarball/master",
     "newrelic": "~1.5.5"
   },
   "devDependencies": {
