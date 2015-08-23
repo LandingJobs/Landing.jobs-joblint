@@ -1,16 +1,16 @@
-lint.jobbox.io
+lint.landing.jobs
 ===========
 
-The source code for http://lint.jobbox.io
+The source code for http://lint.landing.jobs
 
 Test tech job specs for issues with sexism, culture, expectations, and recruiter fails.
 
 About
 -----
 
-Joblint was originally written by [Rowan Manning](https://github.com/rowanmanning) and is maintained by [Diogo Rosa](https://github.com/diogorosa) and [JOBBOX](http://jobbox.io).
+Landing.jobs Joblint version was originally written by [Rowan Manning](https://github.com/rowanmanning) and is maintained by the Landing.jobs team.
 
 License
 -------
 
-Conundrum is Copyright (c) 2014 JOBBOX. Released under the [MIT License](http://www.opensource.org/licenses/MIT).
+Released under the [MIT License](http://www.opensource.org/licenses/MIT).
